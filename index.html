@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        Auto tuning show
+        </title>
+        <meta name="description" content="Блочная верстка HTML5">
+        <style>
+            div {vertical-align: baseline;}
+            * {box-sizing: border-box;}
+            #header h1 {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 30px 30px 30px 10px;
+                clear: both;
+                text-align: center;
+                text-shadow: 5px 4px 3px #666;
+             }
+             #nav {background-color: rgb(157, 203, 234);
+                border-top: 1px solid #888;
+                border-bottom: 1px solid #888;
+                }
+            #nav ul:after {content: " ";
+                display: table;
+                clear: both;
+                }
+            #nav li {float: left;
+                list-style: none;   
+                }
+            #nav a {display: block;
+                color: black;
+                padding: 10px 25px;
+                text-decoration: none;
+                border-right: 3px solid rgb(1, 25, 68);
+                font-size: xx-large;
+                }
+            #nav li:last-child a {border-right: none; 
+                }
+            #wrapper {
+                min-height: 850px;
+                background-image: url(https://sun9-26.userapi.com/impg/c857324/v857324987/1a8651/lYfb_oOBuBQ.jpg?size=2048x996&quality=96&sign=90bf06db44cba63a83d8c20cf63f18ff&type=album); 
+background-size: 100% 100%;  
+            }
+            #sidebar-left {
+                padding: 10px 10px 10px 10px;
+                float: left;
+                width: 25%;}
+            #sidebar-right {
+                padding: 10px 10px 10px 10px;
+                float: right;
+                width: 25%;}
+            #main {
+                padding: 10px 10px 10px 10px;
+                margin-left: 27%;
+                margin-right: 27%;
+                min-height: 500px;
+                background-color: rgba(255, 255, 255, 0.75);
+                /*float: left;*/
+                }
+            #footer {
+                background-color: rgb(206, 244, 146);
+                clear: both;
+                padding: 15px 50px 15px 50px;
+                text-align: center;
+                }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Auto tuning show</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Победители 2023 года</a></li>
+                <li><a href="about.html">Об организаторах</a></li>
+            </ul>
+        </div>
+        <div id="wrapper">
+            <div id="sidebar-left">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Победители 2023 года</a></li>
+                    <li><a href="about.html">Об организаторах</a></li>
+                </ul>
+            </div>
+            <div id="sidebar-right">
+                <p>Информация о графике проведения выставки</p>
+             </div>
+            <div id="main">
+                <p>Самая мощная выставка авто в РФ</p>
+                <p>Участвовать может каждый!</p>
+                <p>У нас крутые призы за выигрышь в дисциплинах</p>
+            </div>
+        </div>
+        <div id="footer">Для участия в выставке пиши нам в телеграм</div>
+    </body>
+</html>   
